@@ -121,10 +121,10 @@ Baby.prototype.play = function(favoriteToy) {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window/Global Object Binding - this will be in the function scope.
+  2. Implicit Binding - occurs when dot notation is used to invoke a function. Whatever is to the left of the dot becomes the context for this in the function. this.name "name"
+  3. New Binding - becomes the instance that is returned by the function.
+  4. Explicit Binding -when .call and .apply are used this is explicitly defined.
 */
 
 
